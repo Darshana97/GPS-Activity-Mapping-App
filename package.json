@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
     "leaflet": "^1.6.0",
+    "leaflet-omnivore": "^0.3.4",
+    "mapbox": "^1.0.0-beta10",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
