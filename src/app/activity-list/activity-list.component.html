@@ -15,7 +15,7 @@ First Date:{{firstDate | date:'longDate'}}
         <tr *ngFor="let activity of activities" >
             <td>{{activity.name}}</td>
             <td>{{activity.comments}}</td>
-            <td>{{activity.date | date:'medium'}}</td>
+            <td>{{activity.date | date}}</td>
             <td>{{activity.distance}}</td>
         </tr>
     </tbody>
