@@ -7,3 +7,4 @@ export const appRoute: Routes = [
   { path: "run/:id", component: MapComponent },
   { path: "", redirectTo: "/runs", pathMatch: "full" },
 ];
+

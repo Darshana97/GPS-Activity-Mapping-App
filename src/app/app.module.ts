@@ -9,11 +9,11 @@ import { AppComponent } from "./app.component";
 import { ActivityListComponent } from "./activity-list/activity-list.component";
 import { MapComponent } from "./map/map.component";
 import { ActivityService } from "./services/activity.service";
-import { appRoute } from "../routes";
+import { appRoutes } from "../routes";
 
 @NgModule({
   declarations: [AppComponent, ActivityListComponent, MapComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,HttpClientModule,FormsModule,RouterModule.forRoot(appRoutes)],
   providers: [ActivityService],
   bootstrap: [AppComponent],
 })
